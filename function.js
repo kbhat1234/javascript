@@ -21,3 +21,23 @@ function carDetails(carBrand, carModel, color, bhp, isAuto, isAirBags){
 //drive(100);
 //mileage(420, 30);
 carDetails('Fiat', 'punto', 'Red', 63, false, true);
+
+function greet(fname, lname){
+    console.log('hello ' +fname+ ' ' +lname);
+}
+
+greet('karthik', 'bhat');
+
+function squareNumber(number){
+    let n = number * number;
+    console.log('Square of ' +number+ ' is ' +n);
+}
+
+squareNumber(10);
+
+function square(n){
+    return n * n;
+}
+
+let num = square(9);
+console.log('Square of 10 is ' +num);
