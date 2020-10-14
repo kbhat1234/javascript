@@ -1,0 +1,11 @@
+let stringName = 'Welcome to Jungle';
+console.log(stringName);
+console.log(typeof(stringName));
+alert("welcome to alert");
+console.log(console.count(stringName));
+var a = 10;
+var b = 20;
+var c = a + b;
+console.log(a);
+console.log(b);
+console.log(c);
